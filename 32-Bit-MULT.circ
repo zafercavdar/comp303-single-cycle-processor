@@ -22,6 +22,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </tool>
     <tool name="Constant">
       <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
     </tool>
   </lib>
   <lib desc="#Gates" name="1"/>
@@ -203,28 +204,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(370,240)" to="(380,240)"/>
     <wire from="(1430,160)" to="(1460,160)"/>
     <wire from="(1430,170)" to="(1450,170)"/>
-    <comp lib="7" loc="(800,150)" name="32-Bit-Mult-Helper">
-      <a name="label" val="8"/>
+    <comp lib="7" loc="(620,240)" name="32-Bit-Mult-Helper">
+      <a name="label" val="21"/>
     </comp>
-    <comp lib="7" loc="(1080,150)" name="32-Bit-Mult-Helper">
-      <a name="label" val="12"/>
+    <comp lib="7" loc="(1110,240)" name="32-Bit-Mult-Helper">
+      <a name="label" val="28"/>
     </comp>
-    <comp lib="7" loc="(1430,150)" name="32-Bit-Mult-Helper">
-      <a name="label" val="17"/>
-    </comp>
-    <comp lib="7" loc="(760,240)" name="32-Bit-Mult-Helper">
-      <a name="label" val="23"/>
-    </comp>
-    <comp lib="0" loc="(150,190)" name="Pin">
-      <a name="width" val="32"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Multiplicand"/>
-    </comp>
-    <comp lib="7" loc="(310,150)" name="32-Bit-Mult-Helper">
-      <a name="label" val="1"/>
-    </comp>
-    <comp lib="7" loc="(940,150)" name="32-Bit-Mult-Helper">
-      <a name="label" val="10"/>
+    <comp lib="7" loc="(1320,240)" name="32-Bit-Mult-Helper">
+      <a name="label" val="31"/>
     </comp>
     <comp lib="0" loc="(1490,370)" name="Pin">
       <a name="facing" val="west"/>
@@ -233,54 +220,51 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="LOW"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="7" loc="(660,150)" name="32-Bit-Mult-Helper">
-      <a name="label" val="6"/>
+    <comp lib="7" loc="(450,150)" name="32-Bit-Mult-Helper">
+      <a name="label" val="3"/>
     </comp>
-    <comp lib="7" loc="(730,150)" name="32-Bit-Mult-Helper">
-      <a name="label" val="7"/>
-    </comp>
-    <comp lib="7" loc="(620,240)" name="32-Bit-Mult-Helper">
-      <a name="label" val="21"/>
-    </comp>
-    <comp lib="7" loc="(480,240)" name="32-Bit-Mult-Helper">
-      <a name="label" val="19"/>
-    </comp>
-    <comp lib="7" loc="(690,240)" name="32-Bit-Mult-Helper">
-      <a name="label" val="22"/>
-    </comp>
-    <comp lib="7" loc="(1220,150)" name="32-Bit-Mult-Helper">
-      <a name="label" val="14"/>
-    </comp>
-    <comp lib="0" loc="(110,70)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="width" val="32"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="7" loc="(520,150)" name="32-Bit-Mult-Helper">
-      <a name="label" val="4"/>
+    <comp lib="7" loc="(1250,240)" name="32-Bit-Mult-Helper">
+      <a name="label" val="30"/>
     </comp>
     <comp lib="7" loc="(1150,150)" name="32-Bit-Mult-Helper">
       <a name="label" val="13"/>
     </comp>
-    <comp lib="7" loc="(1360,150)" name="32-Bit-Mult-Helper">
-      <a name="label" val="16"/>
+    <comp lib="7" loc="(870,150)" name="32-Bit-Mult-Helper">
+      <a name="label" val="9"/>
+    </comp>
+    <comp lib="7" loc="(690,240)" name="32-Bit-Mult-Helper">
+      <a name="label" val="22"/>
+    </comp>
+    <comp lib="7" loc="(480,240)" name="32-Bit-Mult-Helper">
+      <a name="label" val="19"/>
+    </comp>
+    <comp lib="7" loc="(550,240)" name="32-Bit-Mult-Helper">
+      <a name="label" val="20"/>
+    </comp>
+    <comp lib="7" loc="(590,150)" name="32-Bit-Mult-Helper">
+      <a name="label" val="5"/>
     </comp>
     <comp lib="0" loc="(150,330)" name="Pin">
       <a name="width" val="32"/>
       <a name="tristate" val="false"/>
       <a name="label" val="Multiplier"/>
     </comp>
-    <comp lib="7" loc="(900,240)" name="32-Bit-Mult-Helper">
-      <a name="label" val="25"/>
+    <comp lib="7" loc="(1290,150)" name="32-Bit-Mult-Helper">
+      <a name="label" val="15"/>
     </comp>
-    <comp lib="7" loc="(1010,150)" name="32-Bit-Mult-Helper">
-      <a name="label" val="11"/>
+    <comp lib="7" loc="(520,150)" name="32-Bit-Mult-Helper">
+      <a name="label" val="4"/>
     </comp>
-    <comp lib="7" loc="(830,240)" name="32-Bit-Mult-Helper">
-      <a name="label" val="24"/>
+    <comp lib="7" loc="(730,150)" name="32-Bit-Mult-Helper">
+      <a name="label" val="7"/>
     </comp>
-    <comp lib="7" loc="(550,240)" name="32-Bit-Mult-Helper">
-      <a name="label" val="20"/>
+    <comp lib="7" loc="(940,150)" name="32-Bit-Mult-Helper">
+      <a name="label" val="10"/>
+    </comp>
+    <comp lib="0" loc="(110,70)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="32"/>
+      <a name="value" val="0x0"/>
     </comp>
     <comp lib="7" loc="(380,150)" name="32-Bit-Mult-Helper">
       <a name="label" val="2"/>
@@ -292,41 +276,58 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="HIGH"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="7" loc="(590,150)" name="32-Bit-Mult-Helper">
-      <a name="label" val="5"/>
-    </comp>
-    <comp lib="7" loc="(1110,240)" name="32-Bit-Mult-Helper">
-      <a name="label" val="28"/>
-    </comp>
-    <comp lib="7" loc="(1320,240)" name="32-Bit-Mult-Helper">
-      <a name="label" val="31"/>
+    <comp lib="7" loc="(410,240)" name="32-Bit-Mult-Helper">
+      <a name="label" val="18"/>
     </comp>
     <comp lib="7" loc="(1390,240)" name="32-Bit-Mult-Helper">
       <a name="label" val="32"/>
     </comp>
-    <comp lib="7" loc="(1290,150)" name="32-Bit-Mult-Helper">
-      <a name="label" val="15"/>
-    </comp>
     <comp lib="7" loc="(970,240)" name="32-Bit-Mult-Helper">
       <a name="label" val="26"/>
-    </comp>
-    <comp lib="7" loc="(450,150)" name="32-Bit-Mult-Helper">
-      <a name="label" val="3"/>
-    </comp>
-    <comp lib="7" loc="(1250,240)" name="32-Bit-Mult-Helper">
-      <a name="label" val="30"/>
     </comp>
     <comp lib="7" loc="(1040,240)" name="32-Bit-Mult-Helper">
       <a name="label" val="27"/>
     </comp>
-    <comp lib="7" loc="(870,150)" name="32-Bit-Mult-Helper">
-      <a name="label" val="9"/>
+    <comp lib="7" loc="(830,240)" name="32-Bit-Mult-Helper">
+      <a name="label" val="24"/>
+    </comp>
+    <comp lib="0" loc="(150,190)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Multiplicand"/>
+    </comp>
+    <comp lib="7" loc="(660,150)" name="32-Bit-Mult-Helper">
+      <a name="label" val="6"/>
+    </comp>
+    <comp lib="7" loc="(1360,150)" name="32-Bit-Mult-Helper">
+      <a name="label" val="16"/>
+    </comp>
+    <comp lib="7" loc="(800,150)" name="32-Bit-Mult-Helper">
+      <a name="label" val="8"/>
+    </comp>
+    <comp lib="7" loc="(760,240)" name="32-Bit-Mult-Helper">
+      <a name="label" val="23"/>
+    </comp>
+    <comp lib="7" loc="(1220,150)" name="32-Bit-Mult-Helper">
+      <a name="label" val="14"/>
     </comp>
     <comp lib="7" loc="(1180,240)" name="32-Bit-Mult-Helper">
       <a name="label" val="29"/>
     </comp>
-    <comp lib="7" loc="(410,240)" name="32-Bit-Mult-Helper">
-      <a name="label" val="18"/>
+    <comp lib="7" loc="(1430,150)" name="32-Bit-Mult-Helper">
+      <a name="label" val="17"/>
+    </comp>
+    <comp lib="7" loc="(1010,150)" name="32-Bit-Mult-Helper">
+      <a name="label" val="11"/>
+    </comp>
+    <comp lib="7" loc="(310,150)" name="32-Bit-Mult-Helper">
+      <a name="label" val="1"/>
+    </comp>
+    <comp lib="7" loc="(1080,150)" name="32-Bit-Mult-Helper">
+      <a name="label" val="12"/>
+    </comp>
+    <comp lib="7" loc="(900,240)" name="32-Bit-Mult-Helper">
+      <a name="label" val="25"/>
     </comp>
   </circuit>
 </project>
